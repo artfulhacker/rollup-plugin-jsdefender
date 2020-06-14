@@ -4,16 +4,13 @@ export default function jsDefender (options = {})
 {
 	return {
 		name: "jsdefender",
-		renderChunk (code, ChunkInfo)
+		async renderChunk (code, ChunkInfo)
 		{
 			// --- Overwrite the chunk by the protected code
-			return protectCode(code, options)
-			.then(protectedCode => 
-			{
-				return {
-					code: protectedCode
-				}
-			});
+			const protectedCode = await protectCode(code, options);
+			return {
+				code: protectedCode
+			};
 		}
 	};
 }
