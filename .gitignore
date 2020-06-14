@@ -1,0 +1,11 @@
+/lib
+/.test_output
+/.test_output
+/test_coverage
+/node_modules
+/dist
+/example/dist
+.npmrc
+package-lock.json
+.DS_Store
+.DS_Store?
