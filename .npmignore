@@ -1,1 +1,5 @@
 README.md
+/src
+/.vscode
+/example
+rollup.config.js
