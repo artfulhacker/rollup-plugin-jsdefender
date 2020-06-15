@@ -49,6 +49,10 @@ plugins:
 
 See the [jsdefender user guide](https://www.preemptive.com/jsdefender/userguide/en/index.html#pctoc-command-line-options) for information about options
 
+## Licensing
+
+To use this, you must have a valid license key. 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
